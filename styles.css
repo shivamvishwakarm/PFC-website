@@ -409,12 +409,18 @@ footer {
     }
 
     .img  img{
-        width: 80%;
+        width: 100%;
         margin-top: 30px;
     }
 
+    .order-info{
+        padding: 0;
+        width: auto;
+    }
+
     .order-info  h2{
-        font-size: 8vw;
+        font-size: 10vw;
+        width: auto;
 
     }
 
@@ -426,10 +432,27 @@ footer {
     .order-brand{
         justify-content: space-evenly;
     }
-    
+        
     .story p, .story-opposite p{
         font-size: 15px;
     }
-        
+
+    .home-bg {
+        height: auto;
+    }
+
+    .order-brand img{
+        width: 60%;
+
+    }
+
+    .category{
+        flex-direction: column;
+    }
+
+    #brand-swiggy {
+        padding: 0px;
+        margin: 0;
+    }
     
 }
