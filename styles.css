@@ -18,7 +18,7 @@ body {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, rgba(16, 16, 16, 0.7),rgba(16, 16, 16, 0.7)), url('contact.jpg');
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(252, 225, 225, 0.6)), url("homebg.jpg"); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(252, 225, 225, 0.6)), url("contact.jpg"); */
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
