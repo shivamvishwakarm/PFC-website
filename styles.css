@@ -426,6 +426,10 @@ footer {
     .order-brand{
         justify-content: space-evenly;
     }
+    
+    .story p, .story-opposite p{
+        font-size: 15px;
+    }
         
     
 }
