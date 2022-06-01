@@ -454,5 +454,12 @@ footer {
         padding: 0px;
         margin: 0;
     }
+        .veg{
+        border-right: none;
+    }
+
+    .non-veg{
+        border-left: none;
+    }
     
 }
