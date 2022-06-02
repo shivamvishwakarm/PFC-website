@@ -415,7 +415,9 @@ footer {
 
     .order-info{
         padding: 0;
-        width: auto;
+        width: -webkit-fill-available;
+        width: fit-content;
+
     }
 
     .order-info  h2{
