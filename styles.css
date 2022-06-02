@@ -454,7 +454,8 @@ footer {
         padding: 0px;
         margin: 0;
     }
-        .veg{
+
+    .veg{
         border-right: none;
     }
 
@@ -463,3 +464,24 @@ footer {
     }
     
 }
+
+
+@media(max-width:1100px) {
+
+    .img img{
+        width: 100%;
+    }
+
+    .order-brand{
+        width: auto;
+    }
+
+    .intro{
+        flex-direction: row;
+    }
+
+    #banner-section{
+        padding: 0;
+    }
+}
+
