@@ -1,0 +1,65 @@
+<section class="footer">
+    <hr>
+    <div class="social-media">
+        <div class="icon">
+            <a href="www.facebook.com"><img src="/img/logo/facebook.png" alt=""></a>
+        </div>
+        <div class="icon">
+            <a href="https://www.instagram.com/pfcpatna/"><img src="/img/logo/instagram.png" alt=""></a>
+        </div>
+        <div class="icon">
+            <a href="https://www.youtube.com/channel/UCu998Qu8Z_Wsi_lmLEVqI-g"><img src="img/logo/youtube.png"
+                    alt=""></a>
+        </div>
+        <div class="icon">
+            <a href="www.twitter.com"><img src="/img/logo/twiiter.png" alt=""></a>
+        </div>
+    </div>
+    <footer>
+        Copyright &#169; 2021-2022 by PFCpatna.com | All Rights Reserved
+    </footer>
+</section>
+
+</script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector("#nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}));
+
+    
+
+    function Clear() {
+       length = document.getElementsByClassName("app-form-control").length
+       boll = confirm("you are clearning the form...")
+
+       if(boll){
+        for(i=0; i<=length; i++){
+            document.getElementsByClassName("app-form-control")[i].value = "";
+        }
+       }
+       else{
+        //do nothing
+       }
+        
+    }
+
+
+
+
+    
+
+</script>
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</head>
+</html>

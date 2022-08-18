@@ -1,0 +1,47 @@
+<%- include('partials/header') %>
+
+
+
+        <!-- contact page code start -->
+
+
+        <div class="background">
+            <div class="container">
+              <div class="screen">
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +91 93 0446 0475 / 79 7994 2719</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <form action="/contact" method="post">
+                      <div class="app-form">
+                        <div class="app-form-group">
+                          <input class="app-form-control" name="Name" id="Name" placeholder="NAME">
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" name="Email" id="Email" placeholder="EMAIL">
+                        </div>
+                        <div class="app-form-group">
+                          <input class="app-form-control" name="ContactNo" id="ContactNo" placeholder="CONTACT NO">
+                        </div>
+                        <div class="app-form-group message">
+                          <input class="app-form-control" name="Message" id="Message" placeholder="MESSAGE">
+                        </div>
+                        <div class="app-form-group buttons">
+                          <button onclick="Clear()" value="delete" class="app-form-button">CLEAR 
+                          </button>
+                          |
+                          <button type="submit" id="submit-btn" class="app-form-button">SEND</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <%- include('partials/footer') %>
